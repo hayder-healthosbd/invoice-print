@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-size: 1rem;
+}
+html,
+body {
+    height: 100%;
+    margin: 0px;
+}
+
+body > div {
+    height: 100%;
+    display: block;
+    position: relative;
+    /* page-break-inside: avoid; */
+}
+
+body > div > div {
+    position: absolute;
+    bottom: 1px;
+    left: 0px;
+}
